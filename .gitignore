@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+
+# Airflow
+logs/
+airflow.cfg
+airflow.db
+webserver_config.py
+
+# Docker volumes
+postgres_data/
+
+# Data generada por el ETL
+dags/data/raw/
+dags/data/processed/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+*.log
+logfile
+
+# IDE
+.idea/
+.vscode/
+*.swp
